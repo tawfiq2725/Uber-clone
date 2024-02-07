@@ -314,6 +314,12 @@
         flex-direction: column;
         justify-content: start;
         align-items: flex-start;
+        width: fit-content;
+        overflow-x: hidden;
+    }
+    .foot-cont3 , .foot-cont6 ,.foot-cont2{
+        width: fit-content;
+        overflow-x: hidden !important;
     }
     footer{
         height: 1500px;
@@ -334,7 +340,8 @@
         height: 50px;
         background-color: rgb(255, 255, 255);
         position: fixed;
-        right: 50px;
+        right: 70px;
+        margin-right: 20px;
         bottom: 20px;
         border-radius: 50%;
         box-shadow: 0px 3px 17px 7px rgba(0,0,0,0.75);
@@ -457,13 +464,21 @@
             height: 50px;
             background-color: rgb(255, 255, 255);
             position: fixed;
-            right: 280px;
+            right: 50px;
             bottom: 20px;
             border-radius: 50%;
             box-shadow: 0px 3px 17px 7px rgba(0,0,0,0.75);
             -webkit-box-shadow: 0px 3px 17px 7px rgba(0,0,0,0.75);
             -moz-box-shadow: 0px 3px 17px 7px rgba(0,0,0,0.75);
             z-index: 100;
+        }
+        .hide-langscreen{
+            width: fit-content;
+            overflow-x: hidden !important;
+        }
+        .btns-busine{
+            position: relative;
+            left: 10px;
         }
 }
 @media screen and (max-width:410px) {
@@ -480,13 +495,29 @@
         height: 50px;
         background-color: rgb(255, 255, 255);
         position: fixed;
-        left: 30px;
+        right: 50px;
+        margin-right: 10px;
         bottom: 30px;
         border-radius: 50%;
         box-shadow: 0px 3px 17px 7px rgba(0,0,0,0.75);
         -webkit-box-shadow: 0px 3px 17px 7px rgba(0,0,0,0.75);
         -moz-box-shadow: 0px 3px 17px 7px rgba(0,0,0,0.75);
         z-index: 100;
+    }
+    .content4 h1 , .content4 p{
+        margin-left: 59px;
+    }
+    .content2 p , .content5 p{
+        width: 350px;
+    }
+    .content{
+        width: 380px;
+        overflow-x: hidden;
+    }
+    .content h2{
+        width: 300px;
+        word-wrap: break-word;
+        overflow-x: hidden;
     }
     .foot-cont6{
         display: flex;
@@ -554,6 +585,21 @@
     right:-10px;
     top: 50px;
     margin-bottom: 30px;
+}
+.foot-cont5, .foot-cont6 {
+    width: 300px;
+    overflow-x: hidden;
+}
+.foot-cont4{
+    width: 350px;
+    overflow-x: hidden;
+}
+.img5{
+    width: 380px;
+    overflow-x: hidden;
+}
+.content5 h1{
+    width: 350px;
 }
 }
 @media screen and (max-width:370px) {
